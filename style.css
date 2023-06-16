@@ -1,0 +1,67 @@
+
+
+.navbar{
+    background-color: rgba(47,61,70,255);
+}
+
+
+
+.main-container{
+    background-color: rgba(202,210,197,255);
+    display: flex;
+    flex-wrap: wrap;
+    width: 100px;
+     height:100%;
+     align-content: center;
+}
+.left-container{
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    margin:25px;
+    width: 15%;
+    height: 90%;
+}
+.card{
+    width:180px;
+    height:400px;
+    justify-content: center;
+    align-content: center;
+    background-color:rgba(53,53,53,255) ;
+}
+.card-body{
+    background-color:rgba(53,53,53,255) ;
+    border-radius: 10px;
+}
+.right-container{
+    flex-wrap: wrap;
+    margin:25px;
+    float: left;
+    width:60%;
+    display:grid;
+    height:90%;
+}
+.box{
+    width: 30px;
+    height:35px;
+    background-color:rgba(53,53,53,255) ;
+    border-radius: 10px;
+}
+.row2{
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.box-2{
+    background-color:rgba(53,53,53,255) ;
+    width:50px;
+    height:100px;
+    justify-content: space-between;
+    border:1px;
+    border-radius: 10px;
+}
+.box-3{
+    background-color:rgba(53,53,53,255) ;
+    width:200px;
+    height:100px;
+    border-radius: 10px;
+}
